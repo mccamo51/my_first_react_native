@@ -1,7 +1,7 @@
-import { View } from "react-native"
+import { KeyboardAvoidingView, View } from "react-native"
 
 const TextInput = () =>{
-    return <View>
+    return <KeyboardAvoidingView>
         
-    </View>
+    </KeyboardAvoidingView>
 }
