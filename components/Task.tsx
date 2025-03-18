@@ -9,7 +9,7 @@ interface TaskProps {
 
 
 const Task: React.FC<TaskProps> = ({ taskName }) => {
-    return <View className="bg-white rounded-[10px] p-[15px] items-center justify-between flex-row">
+    return <View className="bg-white rounded-[10px] mb-3 p-[15px] items-center justify-between flex-row">
         <View className='flex flex-row items-center'>
             <TouchableOpacity className="h-[25px] w-[25px] bg-[#55BCF666] opacity-40 mr-4 rounded-md"></TouchableOpacity>
             <Text className="text-black text-[14px]">{taskName}</Text>
